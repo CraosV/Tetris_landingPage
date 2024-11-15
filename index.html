@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brick-Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fs-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo.webp" alt="" class="img-fluid rounded" width="100px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link text-primary" aria-current="page" href="#inicio">Inicio</a>
+                <a class="nav-link text-danger" href="#caracteristicas">Caracteristicas</a>
+                <a class="nav-link text-secondary" href="#demostracion">Demostracion</a>
+                <a class="nav-link text-success" href="#contactos">Contactos</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 " id="inicio">
+                <img src="img/logo.webp" class="img-fluid rounded" alt="">
+                <p class="mt-5 fs-4">
+                    ¿Recuerdas esos momentos de pura emoción y concentración frente a una pequeña consola de ladrillos? ¡El Brick Game 9999 in 1 está de vuelta para llevarte de regreso a esa época dorada de los juegos! Con una colección de 9999 juegos clásicos en un solo dispositivo, este juego de bolsillo es perfecto para desconectarte de la rutina y sumergirte en horas de entretenimiento.
+                </p>
+            </div>
+
+            <div class="col-12 col-md-6">
+                
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="img/carousel1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="img/carousel2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="img/carousel3.webp" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="caracteristicas">
+            <h1 class="text-success fw-bold">Características Principales:</h1>
+            <div class="mx-5">
+                <li class="fs-4"><z class="text-danger">9999 JUEGOS EN UNO:</z>Tetris, carreras, tanques, bloques, y muchos más. Cada juego tiene ese toque vintage que amas, con diferentes niveles de dificultad para todos los gustos.</li>
+                <li class="fs-4"><z class="text-success">PANTALLA CLASICA LCD: </z>Con el estilo original, ideal para revivir esa auténtica experiencia retro.</li>
+                <li class="fs-4"><z class="text-primary">BATERIA DE LARGA DURACION: </z>Juega sin preocuparte por recargar. Perfecto para llevar a cualquier lugar: viajes, paseos o simplemente para relajarte en casa.</li>
+                <li class="fs-4"><z class="text-warning">DISEÑO PORTATIL Y COMPACTO:</z> Cabe fácilmente en tu bolsillo, así que puedes llevar la diversión contigo a todas partes.</li>
+            </div>
+        </div>
+        <div id="demostracion">
+            <h1 class="text-primary fw-bold">Demostracion de funcionamiento:</h1>
+            <div class="text-center ratio ratio-16x9">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/0Tmdd7qHpLc" title="9999 in 1 - Brick Game - user manual - Find Tetris 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div>
+           
+        </div>
+    </div>
+    <div class="container py-5">
+
+        <div class="text-center fs-3" id="contactos">
+            <h1 class="fw-bold text-success">Contacte Con Nosotros <i class="fa-solid fa-headset"></i></h1>
+            <p class="text-primary">¡Obtén el tuyo ahora y redescubre la magia de los juegos retro con Brick Game 9999 in 1!
+
+                Disponible para envío inmediato.</p>
+        </div>
+
+        <div class="row  rounded-2 bg-success p-2 fs-4">
+
+            <div class="col-lg-8 col-md-7 col-sm-12 my-3">
+                <div>
+                    <div class="input-group mb-3">
+                      <span class="input-group-text bg-white button-styled" ><i class="fa-solid fa-user"></i></span>
+                      <input type="text" class="form-control bg-white button-styled" id="name" placeholder="Nombre" aria-label="Name" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3">
+                      <span class="input-group-text bg-white button-styled" ><i class="fa-solid fa-envelope"></i></span>
+                      <input type="mail" class="form-control bg-white button-styled" id="mail" placeholder="Correo" aria-label="Email" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="input-group">
+                  <span class="input-group-text bg-white button-styled" >Mensaje</span>
+                  <textarea class="form-control bg-white button-styled" id="message" aria-label="With textarea"></textarea>
+                </div>
+                <button class="btn btn-warning my-2 float-end px-3" ><i class="fa-solid fa-paper-plane"></i> <z id="btnSend">Enviar</z></button>
+            </div>
+
+            <div class="col-lg-4 col-md-5 col-sm-12">
+                <div class="text-center text-white fw-light" >
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>La Paz - Bolivia</p>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+591 60160922</p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>brickgame@gmail.com</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="text-center mt-auto py-1" >
+        <div class="container fw-bold">
+            <div class="col-lg-12 mb-1 mb-lg-0">
+            <a class="btn button-styled btn-social mx-1" href="" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
+            <a class="btn button-styled btn-social mx-1" href="" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="btn button-styled btn-social mx-1" href="https://api.whatsapp.com/send?phone=60160922" target="_blank"><i class="fab fa-fw fa-whatsapp"></i></a>
+            <a class="btn button-styled btn-social mx-1" href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="copyright text-center fs-3">
+            <div class="container"><small>Todos los Derechos Reservados &copy; Brick-Game</small></div>
+            <small>2024</small>
+        </div>
+    </footer>	
+</body>
+</html>
